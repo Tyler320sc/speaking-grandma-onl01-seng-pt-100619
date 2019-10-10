@@ -3,12 +3,8 @@
 def speak_to_grandma(string)
   if string == string.upcase
     return "I LOVE YOU TOO PUMPKIN!"
-  elsif string == string.downcase 
+  elsif string != string.upcase 
     return "HUH?! SPEAK UP, SONNY!"
-  elsif string == string.reverse 
-    return "HUH?! SPEAK UP, SONNY!"
-  elsif string == string.swapcase
-    return "NO, NOT SINCE 1938!"
   else 
     return "NO, NOT SINCE 1938!"
   end 
